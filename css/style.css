@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+}
+.conteudo{
+    width: 1440px;
+    height: 450px;
+    background: #1D539E;
+    
+    
+}
+h1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    color:#FFF;
+    padding-top:100px;
+    margin:0 auto;
+    width: 555px;
+}
+main p{
+    width: 553px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    margin:0 auto;
+    color: #FFFFFF;
+
+
+}
+.cartoes{
+    display: flex;
+    gap:20px;
+    justify-content:center;
+    margin-top:65px;
+}
+.cartao{
+    width: 355px;
+    height: 470px;
+    background: #FFFFFF;
+    
+    box-shadow: 0px 2px 3px rgba(142, 150, 185, 0.25);
+    border-radius: 8px;
+    position: relative;
+}
+.cartao p{
+    width: 100%;
+    text-align: left;
+    padding-left:30px;
+}
+.tipo-plano{
+    padding-top:30px;
+    color:#000;
+    position: relative;
+}
+.popular{
+    position: absolute;
+    right: 20px;
+    bottom:20px;
+    z-index: 3;
+    width: 94px;
+    height: 32px;
+
+    background: #1D539E;
+    border-radius: 40px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.alterado{
+    width: 355px;
+    height: 76px;
+    background: #FFCC29;
+    box-shadow: 0px 1px 2px rgba(142, 150, 185, 0.25);
+    border-radius: 8px 8px 0px 0px;
+}
+.preco-plano{
+    margin-top:20px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: #1E2338;
+}
+.zeros{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 49px;
+    color: #1E2338;
+}
+.mes{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #828799;
+}
+.lorem{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #828799;
+    margin-bottom:41px;
+}
+
+.vantagens{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #828799;
+    display: flex;
+    align-items:center;
+    margin-bottom:20px;
+}
+.vantagens img{
+    margin-right:15px;
+}
+.assinar{
+    position: absolute;
+    width: 296px;
+    height: 49px;
+    bottom:30px;
+    color: #1D539E;
+    border: 1px solid #1D539E;
+    border-radius: 10px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    padding-left: 0px;
+   left:30px;
+}
+.preenchido{
+    background-color: #1D539E;
+    color:#FFF;
+}
